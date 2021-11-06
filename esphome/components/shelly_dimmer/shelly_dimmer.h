@@ -1,7 +1,7 @@
 #include <HardwareSerial.h>
 
 #include "esphome/core/component.h"
-#include "esphome/core/esphal.h"
+#include "esphome/core/hal.h"
 #include "esphome/core/log.h"
 #include "esphome/components/light/light_output.h"
 #include "esphome/components/sensor/sensor.h"
