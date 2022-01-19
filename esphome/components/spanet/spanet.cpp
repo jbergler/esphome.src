@@ -196,6 +196,7 @@ void Spanet::parse_value(std::string line, int pos, const char* value) {
     switch (pos) {
       case 12: // Lock mode
         // 0 -> off, 1 -> partial, 2 -> full
+        this->handle_as_int(SpanetAttr::lock_mode, value);
         break;
     }
   }

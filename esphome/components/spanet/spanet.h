@@ -18,6 +18,7 @@ enum class SpanetAttr {
   current_temperature,
   target_temperature,
   heater_active,
+  lock_mode,
 };
 
 struct SpanetValue {
